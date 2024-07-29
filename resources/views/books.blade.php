@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    @vite('resources/css/app.css')
-    <title>Book List</title>
-</head>
-
-<body class="bg-slate-900">
+  @extends('partials.layout')
+  @section('content')
   <div class="container mx-auto">
     <table class="table-auto text-white font-serif " >
         <thead>
@@ -34,6 +26,5 @@
         </tbody>
     </table>
   </div>
-    {{-- @extends('partials.footer') --}}
-</body>
-</html>
+  @endsection
+  
