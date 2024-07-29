@@ -16,7 +16,7 @@
 </body>
 
 <footer class="text-white text-center text-2x1">
-    <div class="p-10 border-t-2 border-gray-400 mb-5">
+    <div class="p-10 border-t-2 border-gray-400 mt-5">
         <p>Copyrights reserve @Faker.com</p>
     </div>
 </footer>
