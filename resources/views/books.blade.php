@@ -1,12 +1,12 @@
-  @extends('partials.layout')
+@extends('partials.layout')
   @section('content')
   <div class="container mx-auto">
     <table class="table-auto text-white font-serif " >
         <thead>
           <tr class="border-y-2 border-x-2 border-gray-400  bg-slate-700 h-20">
             <th >ID</th>
-            <th>ISBN</th>
-            <th>TITLE</th>
+            <th>BOOK NUMBER</th>
+            <th>BOOK TITLE</th>
             <th>AUTHOR</th>
             <th>DESCRIPTION</th>
             <th>DATE PUBLISHED</th>
