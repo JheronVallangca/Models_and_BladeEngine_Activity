@@ -7,11 +7,12 @@
     <title>Book List</title>
 </head>
 
-<body class="bg-slate-800">
-    <table class="table-auto text-white font-serif" >
+<body class="bg-slate-900">
+  <div class="container mx-auto">
+    <table class="table-auto text-white font-serif " >
         <thead>
-          <tr class="border-y-4 border-gray-400  bg-slate-700">
-            <th>ID</th>
+          <tr class="border-y-2 border-x-2 border-gray-400  bg-slate-700 h-20">
+            <th >ID</th>
             <th>ISBN</th>
             <th>TITLE</th>
             <th>AUTHOR</th>
@@ -21,7 +22,7 @@
         </thead>
         <tbody>
             @foreach ($books as $book)
-                <tr class="border-b-2 border-gray-700">  
+                <tr class="border-b-2 border-l-2 border-r-2 border-gray-500 bg-gray-700">  
                   <td class="px-7">{{ $book->id }}</td>
                   <td class="px-7">{{ $book->isbn }}</td>         
                   <td class="px-7">{{ $book->title }}</td>
@@ -32,6 +33,7 @@
             @endforeach
         </tbody>
     </table>
+  </div>
     {{-- @extends('partials.footer') --}}
 </body>
 </html>
