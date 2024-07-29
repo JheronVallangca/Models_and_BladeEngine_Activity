@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   @vite('resources/css/app.css')
 </head>
-<header class="text-white text-center font-bold text-5xl ">
-    <div class="p-10 border-b-2 border-gray-400 mb-5">
+<header>
+    <div class="p-10 mb-5 text-white text-center font-bold text-5xl bg-gray-900 ">
         <h1>Faker Book Store</h1>
     </div>
 </header>
 
-<body  class="bg-slate-900">
+<body  class="bg-slate-800">
     @yield('content')
 </body>
 
-<footer class="text-white text-center text-2x1">
-    <div class="p-10 border-t-2 border-gray-400 mt-5">
+<footer>
+    <div class="p-10  mt-5 text-white text-center text-2x1 bg-gray-900">
         <p>Copyrights reserve @Faker.com</p>
     </div>
 </footer>
