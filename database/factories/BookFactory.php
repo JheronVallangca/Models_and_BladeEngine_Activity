@@ -18,7 +18,7 @@ class BookFactory extends Factory
     {
         return [
             'isbn' => fake()->unique()->isbn10(),
-            'title' => fake()->title(),
+            'title' => fake()->sentence(),
             'author' => fake()->name(),
             'description' => fake()->paragraph(),
             'date_published' => fake()->date(),
